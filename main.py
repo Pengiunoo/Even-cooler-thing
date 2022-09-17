@@ -346,6 +346,7 @@ class MyGame(arcade.Window):
 
             # Add the bullet to the bullet list
             self.bullet_list.append(bullet)
+            #new change
 
         # Loop through each bullet
         for existing_bullet in self.bullet_list:
